@@ -33,3 +33,18 @@ nav div{
 nav a:hover{
     color:#60A5FA;
 }
+.menu{
+    display:flex;
+    gap:30px;
+    align-items:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:500;
+}
+
+nav a:hover{
+    color:#60A5FA;
+}
