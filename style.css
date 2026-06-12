@@ -219,3 +219,16 @@ footer{
 .card p{
     color:#CBD5E1;
 }
+.card{
+    text-decoration:none;
+    color:inherit;
+}
+
+.card h3{
+    color:#60A5FA;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#CBD5E1;
+}
