@@ -211,3 +211,11 @@ footer{
 .card li{
     margin-bottom:6px;
 }
+.card h3{
+    color:#60A5FA;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#CBD5E1;
+}
