@@ -232,3 +232,17 @@ footer{
         height:180px;
     }
 }
+.linkedin-link{
+    color:#60A5FA;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.linkedin-link:hover{
+    color:#FFFFFF;
+}
+
+.linkedin-link:active{
+    color:#3B82F6;
+}
