@@ -1,1 +1,1 @@
-console.log("MAIN JS LOADED");
+// Main JavaScript file
