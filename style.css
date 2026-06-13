@@ -48,15 +48,6 @@ transition:.3s ease;
 position:relative;
 }
 
-nav a.active{
-    color:#60A5FA;
-    font-weight:600;
-}
-
-nav a.active::after{
-    opacity:1;
-}
-
 nav a::after{
 content:" →";
 opacity:0;
