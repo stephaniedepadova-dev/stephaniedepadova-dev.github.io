@@ -20,8 +20,6 @@ color:var(--text);
 line-height:1.6;
 }
 
-/* NAVBAR */
-
 nav{
 display:flex;
 justify-content:center;
@@ -47,8 +45,6 @@ transition:.3s;
 }
 
 nav a:hover
-
-/* HERO */
 
 .hero{
 max-width:1200px;
@@ -112,8 +108,6 @@ border:4px solid #3B82F6;
 box-shadow:0 0 25px rgba(59,130,246,.25);
 }
 
-/* SECTIONS */
-
 section{
 max-width:1200px;
 margin:auto;
@@ -128,15 +122,11 @@ section h2{
 margin-bottom:25px;
 }
 
-/* GRID */
-
 .grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:20px;
 }
-
-/* CARDS */
 
 .card{
 background:var(--card);
@@ -180,8 +170,6 @@ padding-left:20px;
 margin-bottom:6px;
 }
 
-/* LINKEDIN LINK */
-
 .linkedin-link{
 color:#60A5FA;
 text-decoration:none;
@@ -196,16 +184,12 @@ text-shadow:0 0 8px rgba(96,165,250,.8);
 
 .linkedin-link:active
 
-/* FOOTER */
-
 footer{
 text-align:center;
 padding:40px;
 color:var(--muted);
 border-top:1px solid rgba(255,255,255,.08);
 }
-
-/* TABLET */
 
 @media(max-width:992px){
 
@@ -226,8 +210,6 @@ border-top:1px solid rgba(255,255,255,.08);
 ```
 
 }
-
-/* MOBILE */
 
 @media(max-width:768px){
 
