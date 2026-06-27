@@ -215,6 +215,26 @@ outline:2px solid #60A5FA;
 outline-offset:4px;
 }
 
+/* Force color for phone and email links */
+
+a[href^="tel:"],
+a[href^="mailto:"]{
+    color:#60A5FA !important;
+    text-decoration:none !important;
+}
+
+a[href^="tel:"]:visited,
+a[href^="mailto:"]:visited,
+a[href^="tel:"]:active,
+a[href^="mailto:"]:active{
+    color:#60A5FA !important;
+}
+
+.contact-link,
+.contact-link:visited{
+    color:#60A5FA !important;
+}
+
 ::selection{
 background:#3B82F6;
 color:#fff;
