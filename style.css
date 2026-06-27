@@ -228,6 +228,7 @@ color:#fff;
     font-weight:600;
     transition:.3s ease;
 }
+
 .linkedin-link:link,
 .linkedin-link:visited,
 .contact-link:link,
@@ -239,16 +240,8 @@ color:#fff;
 .contact-link:hover{
     color:#FFFFFF;
 }
-/* CONTACT */
 
-.contact-link,
-.contact-link:link,
-.contact-link:visited{
-color:#60A5FA;
-text-decoration:none;
-font-weight:600;
-}
-
-.contact-link:hover{
-color:#FFFFFF;
+.contact-link:focus-visible{
+    outline:2px solid #60A5FA;
+    outline-offset:4px;
 }
