@@ -56,7 +56,7 @@ align-items:center;
 .hero-content h1{
 font-size:3.5rem;
 margin-bottom:10px;
-white-space:nowrap;
+white-space:normal;
 }
 
 .hero-content h2{
@@ -64,7 +64,7 @@ font-size:1.5rem;
 color:#60A5FA;
 margin-bottom:20px;
 font-weight:600;
-white-space:nowrap;
+white-space:normal;
 }
 
 .hero-content p{
@@ -219,6 +219,11 @@ outline-offset:4px;
 background:#3B82F6;
 color:#fff;
 }
+.contact-link:focus-visible{
+    outline:2px solid #60A5FA;
+    outline-offset:4px;
+}
+
 /* CONTACT LINKS */
 
 .linkedin-link,
