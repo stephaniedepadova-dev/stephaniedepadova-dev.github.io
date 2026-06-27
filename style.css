@@ -22,6 +22,9 @@ font-family:Inter, Arial, sans-serif;
 background:var(--bg);
 color:var(--text);
 line-height:1.6;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+text-rendering:optimizeLegibility;
 }
 
 /* NAVBAR */
@@ -317,4 +320,41 @@ padding:10px 14px;
 .hero-photo img{
     width:180px;
     height:180px;
+}
+
+
+/* Accessibility */
+
+nav a:focus-visible{
+color:#60A5FA;
+outline:2px solid #60A5FA;
+outline-offset:4px;
+}
+
+.btn:focus-visible{
+outline:2px solid #60A5FA;
+outline-offset:4px;
+}
+
+.card:focus-within{
+transform:translateY(-5px);
+box-shadow:0 15px 35px rgba(0,0,0,.25);
+}
+
+::selection{
+background:#3B82F6;
+color:#fff;
+}
+
+@media (hover:none){
+
+.card:hover{
+transform:none;
+box-shadow:none;
+}
+
+.btn:hover{
+transform:none;
+}
+
 }
