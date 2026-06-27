@@ -214,7 +214,28 @@ nav a:focus-visible,
 outline:2px solid #60A5FA;
 outline-offset:4px;
 }
+
 ::selection{
 background:#3B82F6;
 color:#fff;
+}
+/* CONTACT LINKS */
+
+.linkedin-link,
+.contact-link{
+    color:#60A5FA;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s ease;
+}
+.linkedin-link:link,
+.linkedin-link:visited,
+.contact-link:link,
+.contact-link:visited{
+    color:#60A5FA;
+}
+
+.linkedin-link:hover,
+.contact-link:hover{
+    color:#FFFFFF;
 }
