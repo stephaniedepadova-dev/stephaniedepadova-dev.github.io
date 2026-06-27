@@ -239,3 +239,16 @@ color:#fff;
 .contact-link:hover{
     color:#FFFFFF;
 }
+/* CONTACT */
+
+.contact-link,
+.contact-link:link,
+.contact-link:visited{
+color:#60A5FA;
+text-decoration:none;
+font-weight:600;
+}
+
+.contact-link:hover{
+color:#FFFFFF;
+}
