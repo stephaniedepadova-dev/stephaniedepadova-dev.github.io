@@ -287,8 +287,11 @@ line-height:1.2;
 }
 
 .hero-content h2{
-font-size:1.1rem;
-line-height:1.4;
+color:#60A5FA;
+font-size:1.5rem;
+margin-bottom:20px;
+font-weight:600;
+white-space:nowrap;
 }
 
 .hero-content p{
