@@ -31,3 +31,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
+
+// Card reveal animation
+const cards=document.querySelectorAll('.card');
+if(cards.length){
+ const observer=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show');});
+ },{threshold:0.15});
+ cards.forEach(c=>observer.observe(c));
+}
