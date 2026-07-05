@@ -1,2 +1,4 @@
-// Reserved for future JavaScript enhancements.
-// Intentionally left blank.
+'use strict';
+
+// Portfolio JavaScript
+// Reserved for future enhancements.
