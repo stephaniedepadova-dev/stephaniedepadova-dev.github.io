@@ -33,7 +33,13 @@ z-index:1000;
 backdrop-filter:blur(10px);
 }
 
-.menu{display:flex;gap:30px;flex-wrap:wrap;justify-content:center;}
+.menu{
+display:flex;
+gap:30px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
 nav a{
 color:var(--muted);
 text-decoration:none;
@@ -43,12 +49,12 @@ border-radius:8px;
 transition:color .25s ease;
 }
 
-nav a:hover{
+nav a:hover,
+nav a.active{
 color:var(--primary-hover);
 }
 
 nav a.active{
-color:var(--text);
 font-weight:600;
 }
 
