@@ -2,14 +2,14 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
-    // Aggiorna automaticamente l'anno nel footer
+    // Footer - Current Year
     const currentYear = document.getElementById('current-year');
 
     if (currentYear) {
         currentYear.textContent = new Date().getFullYear();
     }
 
-    // Aggiorna automaticamente "Last Updated" nella pagina Privacy
+    // Privacy - Last Updated
     const lastUpdated = document.getElementById('last-updated');
 
     if (lastUpdated) {
@@ -18,5 +18,16 @@ document.addEventListener('DOMContentLoaded', () => {
             year: 'numeric'
         });
     }
+
+    // Active Navigation Link
+    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+
+    document.querySelectorAll('.menu a').forEach(link => {
+        const href = link.getAttribute('href');
+
+        if (href === currentPage) {
+            link.classList.add('active');
+        }
+    });
 
 });
