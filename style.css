@@ -35,13 +35,22 @@ backdrop-filter:blur(10px);
 
 .menu{display:flex;gap:30px;flex-wrap:wrap;justify-content:center;}
 nav a{
-color:#fff;
+color:var(--muted);
 text-decoration:none;
 font-weight:500;
 padding:8px 12px;
-transition:.3s;
+border-radius:8px;
+transition:color .25s ease;
 }
-nav a:hover{color:#60A5FA;}
+
+nav a:hover{
+color:var(--primary-hover);
+}
+
+nav a.active{
+color:var(--text);
+font-weight:600;
+}
 
 .hero{
 max-width:1280px;
